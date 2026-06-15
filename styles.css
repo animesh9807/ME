@@ -40,6 +40,7 @@ p {
     margin: 0 auto;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    box-sizing: border-box;
     /* padding-bottom: 0; */
 }
 
@@ -85,4 +86,29 @@ footer{
     padding-bottom: 3rem;
     color: rgba(255, 255, 255, 0.3);
     
+}
+
+@media (max-width: 768px){
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .links{
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
 }
